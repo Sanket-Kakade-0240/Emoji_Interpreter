@@ -59,6 +59,9 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+.head {
   margin-top: 4rem;
 }
 

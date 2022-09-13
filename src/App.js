@@ -51,31 +51,31 @@ export default function App() {
     setMeaning(meaning);
   }
   return (
-    <>
+    <>      <div className="App">
       <nav class="navigation">
         <div class="nav-head">
           <h1>Sanket Kakade</h1>
         </div>
         <ul class="list-non-bullet nav-pills">
           <li class="list-item-inline">
-            <a class="link" href="/">
+            <a class="link" href="https://sk1stwebsite.netlify.app/">
               Home
             </a>
           </li>
           <li class="list-item-inline">
-            <a class="link link-active" href="/">
+            <a class="link link-active" href="https://sk1stwebsite.netlify.app/projects.html">
               Projects
             </a>
           </li>
           <li class="list-item-inline">
-            <a class="link" href="/">
+            <a class="link" href="https://sk1stwebsite.netlify.app/blogs.html">
               Blogs
             </a>
           </li>
         </ul>
       </nav>
-      <div className="App">
-        <h1> Emoji Interpreter </h1>
+
+        <h1 class="head"> Emoji Interpreter </h1>
         <input onChange={emojiInputHandler} />
         <h2>{meaning}</h2>
         <h3> Emojis in our Database </h3>
@@ -95,7 +95,7 @@ export default function App() {
             </span>
           );
         })}
-      </div>
+      
       <footer class="footer">
         <div class="footer-header">
           <h3>My socials</h3>
@@ -117,7 +117,7 @@ export default function App() {
             </a>{" "}
           </li>
         </ul>
-      </footer>
+      </footer></div>
     </>
   );
 }
