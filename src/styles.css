@@ -1,0 +1,90 @@
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  text-align: right;
+}
+
+.link-primary {
+  /*background-color: var(--primary-color);*/
+  border-radius: 0.5rem;
+  color: white;
+  text-align: right;
+}
+
+/*.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  text-align: right;
+} 
+*/
+
+.list-non-bullet {
+  list-style: none;
+  text-align: right;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  text-align: right;
+}
+
+.navigation {
+  background-color: palegoldenrod;
+  color: black;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  box-shadow: 10px 5px 5px darkgray;
+}
+
+.navigation .nav-hmm {
+  font-weight: bold;
+}
+
+.navigation .nav-head {
+  text-align: left;
+}
+
+.navigation .link {
+  color: black;
+  text-align: right;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+  text-align: right;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footer {
+  margin-top: 3.5%;
+  background-color: rgb(241, 234, 154);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: black;
+  border-top-right-radius: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 96.5%;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .link {
+  color: black;
+  text-align: center;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+  text-align: center;
+}
