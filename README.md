@@ -1,2 +1,2 @@
 # Emoji_Interpreter
-Created with CodeSandbox
+A web application based on react js, created with CodeSandbox.
